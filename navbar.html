@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>lurg fashion</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <link rel="stylesheet" href="stylee.css">
+    </head>
+    <boby>
+
+        <section id="header">
+          <div>
+            <nav>
+            <h3 class="logo">LURG FASHION</h3>
+                <ul id="navbar">
+                    <li><a class="active" href="home.html">Home</a></li>
+                    <li><a href="Shop.html">Shop</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="cart.html"><i class='bx bx-shopping-bag'></i></a></li>
+                </ul>
+                </nav>
+            </div> 
+        </section>
+
+
+
+
+        @media (max-width:799px) {
+            #navbar{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                position: fixed;
+                top: 0;
+                right: -300px;
+                height: 100vh;
+                width: 300px;
+                background-color: rgb(107, 87, 87);
+                box-shadow: 0 40px 60px rgba(0,0,0, 0.0);
+                padding: 0 0 10px;
+                transition: 0.3s;
+            }
+            #navbar li{
+              margin-bottom: 25px;
+            }
+            #mobile{
+              display: flex;
+              align-items: center;
+            }
+            #mobile i{
+              color: #1a1a1a;
+              font-size: 24px;
+              padding-left: 20px;
+            }
+          
+          #close{
+            display: inline;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            color: #222;
+            font-size: 24px;
+          }
+          #hero{
+           
+          
+            height: 70vh;
+            padding: 0 80px;
+            background-position: top 30% right 30%;
+             
+            }
+          #product1 .pro-container{
+          
+            justify-content: center;
+          }
+          
+          
+          #product1 .pro{
+             margin: 15px ;
+          } 
+          
+          #banner{
+             height:20vh;
+           }
+           #sm-banner .banner-box{
+            
+              min-width: 100px;
+              height: 30vh;
+          }
+          #banner3{
+              padding: 40px;
+          }
+          
+          #banner3 .banner-box{
+              width: 28%;
+             }
+             #newletter .form{
+                 width: 70%;
+            }
+          }
+          
+
+          #sm-banner{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+          }
+          
+          
+          #sm-banner .banner-box{
+            display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: flex-start;
+              text-align: center;
+              background-image: url(images/rr.jpg);
+              min-width: 580px;
+              height: 50vh;
+              background-size: cover;
+              background-position: center;
+              
+          }
+          
+          #sm-banner .banner-box2{
+            background-image: url(images/bann1.jpg);
+          }
+          
+          
+
+
+          <section id="sm-banner" class="section-p1">
+            <div class="banner-box">
+              <h4>CRAZY DEALS</h4>
+              <h3>BUY 1 GET 1 FREE</h3>
+              <span>THE BEST CLASSIC DRESS IS ON SALE AT LURG</span>
+              <button class="white">LEARN MORE  </button>
+            </div>
+            <div class="banner-box banner-box2">
+              <h4>SPRING SUMMER</h4>
+              <h3>UPCOMING SEASON</h3>
+              <span>FROM LA STRAIGHT TO YOUR DOORSTEP</span>
+              <button class="white">COLLECTION  </button>
+            </div>
+          </section>
